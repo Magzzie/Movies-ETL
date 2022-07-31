@@ -4,6 +4,7 @@ movies_metadata.csv
 ratings.csv
 ratings_small.csv
 
+config.py
 
 
 # Byte-compiled / optimized / DLL files
