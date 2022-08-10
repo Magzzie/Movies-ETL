@@ -1,6 +1,6 @@
 # Movies_ETL
-Creating an ETL pipeline of movies data for a hackathon. 
 
+Analyzing movies data from Wikipedia and Kaggle and building a robust ETL pipeline from different sources to a structured database.
 
 ## Background
 
@@ -71,30 +71,6 @@ Refactor Extraction, Transformation, and Loading code to create one function tha
     |-|
     |![Ratings Raw - SQL Table](./Images/ratings_table_sql.png)|
     
-
-
-
+    
 ---
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
