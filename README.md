@@ -1,4 +1,4 @@
-# Movies_ETL
+# Movies_ETL_Pipeline
 
 Analyzing movies data from Wikipedia and Kaggle and building a robust ETL pipeline from different sources to a structured database.
 
