@@ -15,6 +15,12 @@ To Keep the data updated on a daily basis, we propose creating an automated pipe
 
 Refactor Extraction, Transformation, and Loading code to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data—and performs the ETL process by adding the data to a PostgreSQL database.
 
+## Resources
+- Data Sources: movies_metadata.csv, ratings.csv, wikipedia-movies.json
+- Softwares: Python, PostgreSQL, pgAdmin, Anaconda.
+- Libraries & Packages: Jupyter Notebook, sqlAlchemy, psycogp2, 
+- Online Tools: [Movies ETL Analysis GitHub Repository](https://github.com/Magzzie/Movies_ETL)
+
 ## Methods
 
 1. Using Python, Pandas, the ETL process, and code refactoring, we created a function that readd in the three data files and creates three separate DataFrames.
@@ -24,13 +30,6 @@ Refactor Extraction, Transformation, and Loading code to create one function tha
 3. Using Python, Pandas, the ETL process, and code refactoring, extract and transform the Kaggle metadata and MovieLens rating data, then converted the transformed data into separate DataFrames. Then, we merged the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame. Finally,  we merged the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df.
 
 4. Use Python, Pandas, the ETL process, code refactoring, and PostgreSQL, we added the movies_df DataFrame and MovieLens rating CSV data to a SQL database.
-
-
-## Resources
-- Data Sources: movies_metadata.csv, ratings.csv, wikipedia-movies.json
-- Softwares: Python, PostgreSQL, pgAdmin, Anaconda.
-- Libraries & Packages: Jupyter Notebook, sqlAlchemy, psycogp2, 
-- Online Tools: [Movies ETL Analysis GitHub Repository](https://github.com/Magzzie/Movies_ETL)
 
 
 ## Results
